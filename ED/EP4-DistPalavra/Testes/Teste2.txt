@@ -1,0 +1,16 @@
+12
+gato
+pato
+lata
+aresta
+alta
+ata
+preta
+ato
+pata
+preto
+rato
+prata
+2
+gato preto
+ata aresta

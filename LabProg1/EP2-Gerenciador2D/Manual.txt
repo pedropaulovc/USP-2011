@@ -1,0 +1,63 @@
+MAC0211 - Laboratório de Programação I
+EP3-2011: Gerenciador de Arquivos
+
+Alunos:
+	Daniel Moraes Huguenin - 5118403
+	Pedro Paulo Vezzá Campos - 7538743
+
+
+Manual do Usuário
+====================
+
+1. Introdução:
+--------------------
+
+	Seu gerenciador de arquivos deve ser entendido como se fosse o painel de uma nave, que sobrevoa o conteudo 
+do diretorio corrente, dispostos como ladrilhos agrupados por tipo e dentro de cada tipo ordenados em ordem
+alfabética.
+
+	No painel da nave, temos comandos básicos para lidar com esses arquivos. Esses comandos são sempre aplicados
+no arquivo que está no centro da tela (sob a mira da nave). 
+
+
+2. Movimento da Nave:
+----------------------
+
+	Use as setas CIMA, BAIXO, ESQUERDA e DIREITA para navegar pelos arquivos, ou clique em um dos arquivos que
+você vê para centralizar a mira da nave nesse arquivo.
+
+	Ao o gerenciador será apresentado o diretório corrente. Para entrar em um outro diretório, posicione a mira
+	da nave no diretório desejado e tecle ENTER ou clique no botão Abrir do painel. Para retornar ao diretório
+	anterior basta abrir o diretório "..".
+
+
+3. Botões do painel
+---------------------
+
+Sua nave tem vários botões em seu painel. Vamos entender o que significa cada um deles? Caso você se esqueça
+de qualquer um deles não tema! Pressione '?' e as opções disponíveis serão apresentadas no terminal para você
+consultar.
+
+
+- Renomear - Com ele você renomeia o arquivo que está na mira da nave. Ao clicar nesse botão, uma mensagem na 
+janela de terminal pedirá a você que escreva o novo nome do arquivo. Digite-o no campo de entrada que será exibido.
+Pronto! Você renomeou o arquivo.
+
+Vale lembrar que você também pode acessar esse botão por um simples atalho: a tecla 'r' no teclado.
+
+
+- Deletar - Quer que sua nave pulverize o arquivo pra você? Sem problema. Posicione a mira da nave no arquivo a ser
+excluído e clique no botão Deletar. Só não vale excluir diretórios (eles podem conter arquivos!).
+
+Você também pode acessar esse comando simplesmente pressionando a tecla DEL do teclado, ou 'd'.
+
+
+- Novo - Esse botão vai abrir o compartimento de carga da nave e jogar um arquivo novinho e limpo no seu diretório,
+para você modificar a vontade. Ao clicar nesse botão, Digite-o no campo de entrada o nome do arquivo, antes de jogá-lo no diretório.
+
+Você também pode acessar esse útil comando pressionando a tecla 'n' ou 'c' do teclado.
+
+- Atualizar - Alguma outra nave anda mexendo no conteúdo do diretorio que você está ao mesmo tempo que você? Sem
+problema! Aperte este botão e o visor da sua nave é atualizado.
+
+Faça também essa ação pressionando a tecla F5 ou a tecla 'a' do seu teclado.

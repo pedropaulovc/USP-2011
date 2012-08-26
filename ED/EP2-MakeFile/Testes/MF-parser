@@ -1,0 +1,18 @@
+prog     :   	prog.o	  prog1.o 	   prog2.o
+	gcc prog.o prog1.o prog2.o -o prog
+
+  prog.o:main.h Target.h
+prog1.o: MakeFile.h 	Target.h
+	gcc		 -c prog-1.c
+	
+	gcc   -c prog0.c
+	gcc      -c prog1.c
+
+prog2.o: Target.h main.h
+	gcc -c prog2.c
+limpa:
+	rm prog.o prog1.o prog2.o
+
+
+limpa2:
+	rm prog.o prog0.o prog1.o prog2.o

@@ -1,0 +1,906 @@
+O menor caminho entre gato e gato tem custo 0
+gato
+
+O menor caminho entre gato e pato tem custo 2
+gato -> pato
+
+O menor caminho entre gato e lata tem custo 5
+gato -> pato -> pata -> lata
+
+O menor caminho entre gato e nata tem custo 3
+gato -> nato -> nata
+
+O menor caminho entre gato e nato tem custo 2
+gato -> nato
+
+O menor caminho entre gato e tona tem custo 5
+gato -> nato -> nota -> tona
+
+O menor caminho entre gato e nota tem custo 3
+gato -> nato -> nota
+
+O menor caminho entre gato e alta tem custo 5
+gato -> ato -> ata -> alta
+
+O menor caminho entre gato e ata tem custo 3
+gato -> ato -> ata
+
+O menor caminho entre gato e preta tem custo 6
+gato -> pato -> pata -> prata -> preta
+
+O menor caminho entre gato e ato tem custo 2
+gato -> ato
+
+O menor caminho entre gato e pata tem custo 3
+gato -> pato -> pata
+
+O menor caminho entre gato e preto tem custo 5
+gato -> pato -> prato -> preto
+
+O menor caminho entre gato e rato tem custo 2
+gato -> rato
+
+O menor caminho entre gato e prata tem custo 5
+gato -> pato -> pata -> prata
+
+O menor caminho entre gato e prato tem custo 4
+gato -> pato -> prato
+
+Não existe caminho entre gato e catarata
+
+Não existe caminho entre gato e carta
+
+O menor caminho entre pato e gato tem custo 2
+pato -> gato
+
+O menor caminho entre pato e pato tem custo 0
+pato
+
+O menor caminho entre pato e lata tem custo 3
+pato -> pata -> lata
+
+O menor caminho entre pato e nata tem custo 3
+pato -> pata -> nata
+
+O menor caminho entre pato e nato tem custo 2
+pato -> nato
+
+O menor caminho entre pato e tona tem custo 5
+pato -> nato -> nota -> tona
+
+O menor caminho entre pato e nota tem custo 3
+pato -> nato -> nota
+
+O menor caminho entre pato e alta tem custo 5
+pato -> pata -> ata -> alta
+
+O menor caminho entre pato e ata tem custo 3
+pato -> pata -> ata
+
+O menor caminho entre pato e preta tem custo 4
+pato -> prato -> preto -> preta
+
+O menor caminho entre pato e ato tem custo 2
+pato -> ato
+
+O menor caminho entre pato e pata tem custo 1
+pato -> pata
+
+O menor caminho entre pato e preto tem custo 3
+pato -> prato -> preto
+
+O menor caminho entre pato e rato tem custo 2
+pato -> rato
+
+O menor caminho entre pato e prata tem custo 3
+pato -> pata -> prata
+
+O menor caminho entre pato e prato tem custo 2
+pato -> prato
+
+Não existe caminho entre pato e catarata
+
+Não existe caminho entre pato e carta
+
+O menor caminho entre lata e gato tem custo 5
+lata -> nata -> nato -> gato
+
+O menor caminho entre lata e pato tem custo 3
+lata -> pata -> pato
+
+O menor caminho entre lata e lata tem custo 0
+lata
+
+O menor caminho entre lata e nata tem custo 2
+lata -> nata
+
+O menor caminho entre lata e nato tem custo 3
+lata -> nata -> nato
+
+O menor caminho entre lata e tona tem custo 5
+lata -> nata -> nota -> tona
+
+O menor caminho entre lata e nota tem custo 3
+lata -> nata -> nota
+
+O menor caminho entre lata e alta tem custo 3
+lata -> alta
+
+O menor caminho entre lata e ata tem custo 2
+lata -> ata
+
+O menor caminho entre lata e preta tem custo 5
+lata -> pata -> prata -> preta
+
+O menor caminho entre lata e ato tem custo 3
+lata -> ata -> ato
+
+O menor caminho entre lata e pata tem custo 2
+lata -> pata
+
+O menor caminho entre lata e preto tem custo 6
+lata -> pata -> prata -> preta -> preto
+
+O menor caminho entre lata e rato tem custo 5
+lata -> nata -> nato -> rato
+
+O menor caminho entre lata e prata tem custo 4
+lata -> pata -> prata
+
+O menor caminho entre lata e prato tem custo 5
+lata -> pata -> pato -> prato
+
+Não existe caminho entre lata e catarata
+
+Não existe caminho entre lata e carta
+
+O menor caminho entre nata e gato tem custo 3
+nata -> nato -> gato
+
+O menor caminho entre nata e pato tem custo 3
+nata -> nato -> pato
+
+O menor caminho entre nata e lata tem custo 2
+nata -> lata
+
+O menor caminho entre nata e nata tem custo 0
+nata
+
+O menor caminho entre nata e nato tem custo 1
+nata -> nato
+
+O menor caminho entre nata e tona tem custo 3
+nata -> nota -> tona
+
+O menor caminho entre nata e nota tem custo 1
+nata -> nota
+
+O menor caminho entre nata e alta tem custo 4
+nata -> ata -> alta
+
+O menor caminho entre nata e ata tem custo 2
+nata -> ata
+
+O menor caminho entre nata e preta tem custo 5
+nata -> pata -> prata -> preta
+
+O menor caminho entre nata e ato tem custo 3
+nata -> nato -> ato
+
+O menor caminho entre nata e pata tem custo 2
+nata -> pata
+
+O menor caminho entre nata e preto tem custo 6
+nata -> nato -> pato -> prato -> preto
+
+O menor caminho entre nata e rato tem custo 3
+nata -> nato -> rato
+
+O menor caminho entre nata e prata tem custo 4
+nata -> pata -> prata
+
+O menor caminho entre nata e prato tem custo 5
+nata -> nato -> pato -> prato
+
+Não existe caminho entre nata e catarata
+
+Não existe caminho entre nata e carta
+
+O menor caminho entre nato e gato tem custo 2
+nato -> gato
+
+O menor caminho entre nato e pato tem custo 2
+nato -> pato
+
+O menor caminho entre nato e lata tem custo 3
+nato -> nata -> lata
+
+O menor caminho entre nato e nata tem custo 1
+nato -> nata
+
+O menor caminho entre nato e nato tem custo 0
+nato
+
+O menor caminho entre nato e tona tem custo 3
+nato -> nota -> tona
+
+O menor caminho entre nato e nota tem custo 1
+nato -> nota
+
+O menor caminho entre nato e alta tem custo 5
+nato -> nata -> ata -> alta
+
+O menor caminho entre nato e ata tem custo 3
+nato -> nata -> ata
+
+O menor caminho entre nato e preta tem custo 6
+nato -> nata -> pata -> prata -> preta
+
+O menor caminho entre nato e ato tem custo 2
+nato -> ato
+
+O menor caminho entre nato e pata tem custo 3
+nato -> nata -> pata
+
+O menor caminho entre nato e preto tem custo 5
+nato -> pato -> prato -> preto
+
+O menor caminho entre nato e rato tem custo 2
+nato -> rato
+
+O menor caminho entre nato e prata tem custo 5
+nato -> nata -> pata -> prata
+
+O menor caminho entre nato e prato tem custo 4
+nato -> pato -> prato
+
+Não existe caminho entre nato e catarata
+
+Não existe caminho entre nato e carta
+
+O menor caminho entre tona e gato tem custo 5
+tona -> nota -> nato -> gato
+
+O menor caminho entre tona e pato tem custo 5
+tona -> nota -> nato -> pato
+
+O menor caminho entre tona e lata tem custo 5
+tona -> nota -> nata -> lata
+
+O menor caminho entre tona e nata tem custo 3
+tona -> nota -> nata
+
+O menor caminho entre tona e nato tem custo 3
+tona -> nota -> nato
+
+O menor caminho entre tona e tona tem custo 0
+tona
+
+O menor caminho entre tona e nota tem custo 2
+tona -> nota
+
+O menor caminho entre tona e alta tem custo 7
+tona -> nota -> nata -> ata -> alta
+
+O menor caminho entre tona e ata tem custo 5
+tona -> nota -> nata -> ata
+
+O menor caminho entre tona e preta tem custo 8
+tona -> nota -> nata -> pata -> prata -> preta
+
+O menor caminho entre tona e ato tem custo 5
+tona -> nota -> nato -> ato
+
+O menor caminho entre tona e pata tem custo 5
+tona -> nota -> nata -> pata
+
+O menor caminho entre tona e preto tem custo 8
+tona -> nota -> nato -> pato -> prato -> preto
+
+O menor caminho entre tona e rato tem custo 5
+tona -> nota -> nato -> rato
+
+O menor caminho entre tona e prata tem custo 7
+tona -> nota -> nata -> pata -> prata
+
+O menor caminho entre tona e prato tem custo 7
+tona -> nota -> nato -> pato -> prato
+
+Não existe caminho entre tona e catarata
+
+Não existe caminho entre tona e carta
+
+O menor caminho entre nota e gato tem custo 3
+nota -> nato -> gato
+
+O menor caminho entre nota e pato tem custo 3
+nota -> nato -> pato
+
+O menor caminho entre nota e lata tem custo 3
+nota -> nata -> lata
+
+O menor caminho entre nota e nata tem custo 1
+nota -> nata
+
+O menor caminho entre nota e nato tem custo 1
+nota -> nato
+
+O menor caminho entre nota e tona tem custo 2
+nota -> tona
+
+O menor caminho entre nota e nota tem custo 0
+nota
+
+O menor caminho entre nota e alta tem custo 5
+nota -> nata -> ata -> alta
+
+O menor caminho entre nota e ata tem custo 3
+nota -> nata -> ata
+
+O menor caminho entre nota e preta tem custo 6
+nota -> nata -> pata -> prata -> preta
+
+O menor caminho entre nota e ato tem custo 3
+nota -> nato -> ato
+
+O menor caminho entre nota e pata tem custo 3
+nota -> nata -> pata
+
+O menor caminho entre nota e preto tem custo 6
+nota -> nato -> pato -> prato -> preto
+
+O menor caminho entre nota e rato tem custo 3
+nota -> nato -> rato
+
+O menor caminho entre nota e prata tem custo 5
+nota -> nata -> pata -> prata
+
+O menor caminho entre nota e prato tem custo 5
+nota -> nato -> pato -> prato
+
+Não existe caminho entre nota e catarata
+
+Não existe caminho entre nota e carta
+
+O menor caminho entre alta e gato tem custo 5
+alta -> ata -> ato -> gato
+
+O menor caminho entre alta e pato tem custo 5
+alta -> ata -> ato -> pato
+
+O menor caminho entre alta e lata tem custo 3
+alta -> lata
+
+O menor caminho entre alta e nata tem custo 4
+alta -> ata -> nata
+
+O menor caminho entre alta e nato tem custo 5
+alta -> ata -> ato -> nato
+
+O menor caminho entre alta e tona tem custo 7
+alta -> ata -> nata -> nota -> tona
+
+O menor caminho entre alta e nota tem custo 5
+alta -> ata -> nata -> nota
+
+O menor caminho entre alta e alta tem custo 0
+alta
+
+O menor caminho entre alta e ata tem custo 2
+alta -> ata
+
+O menor caminho entre alta e preta tem custo 7
+alta -> ata -> pata -> prata -> preta
+
+O menor caminho entre alta e ato tem custo 3
+alta -> ata -> ato
+
+O menor caminho entre alta e pata tem custo 4
+alta -> ata -> pata
+
+O menor caminho entre alta e preto tem custo 8
+alta -> ata -> ato -> pato -> prato -> preto
+
+O menor caminho entre alta e rato tem custo 5
+alta -> ata -> ato -> rato
+
+O menor caminho entre alta e prata tem custo 6
+alta -> ata -> pata -> prata
+
+O menor caminho entre alta e prato tem custo 7
+alta -> ata -> ato -> pato -> prato
+
+Não existe caminho entre alta e catarata
+
+Não existe caminho entre alta e carta
+
+O menor caminho entre ata e gato tem custo 3
+ata -> ato -> gato
+
+O menor caminho entre ata e pato tem custo 3
+ata -> ato -> pato
+
+O menor caminho entre ata e lata tem custo 2
+ata -> lata
+
+O menor caminho entre ata e nata tem custo 2
+ata -> nata
+
+O menor caminho entre ata e nato tem custo 3
+ata -> ato -> nato
+
+O menor caminho entre ata e tona tem custo 5
+ata -> nata -> nota -> tona
+
+O menor caminho entre ata e nota tem custo 3
+ata -> nata -> nota
+
+O menor caminho entre ata e alta tem custo 2
+ata -> alta
+
+O menor caminho entre ata e ata tem custo 0
+ata
+
+O menor caminho entre ata e preta tem custo 5
+ata -> pata -> prata -> preta
+
+O menor caminho entre ata e ato tem custo 1
+ata -> ato
+
+O menor caminho entre ata e pata tem custo 2
+ata -> pata
+
+O menor caminho entre ata e preto tem custo 6
+ata -> ato -> pato -> prato -> preto
+
+O menor caminho entre ata e rato tem custo 3
+ata -> ato -> rato
+
+O menor caminho entre ata e prata tem custo 4
+ata -> pata -> prata
+
+O menor caminho entre ata e prato tem custo 5
+ata -> ato -> pato -> prato
+
+Não existe caminho entre ata e catarata
+
+Não existe caminho entre ata e carta
+
+O menor caminho entre preta e gato tem custo 6
+preta -> preto -> prato -> pato -> gato
+
+O menor caminho entre preta e pato tem custo 4
+preta -> preto -> prato -> pato
+
+O menor caminho entre preta e lata tem custo 5
+preta -> prata -> pata -> lata
+
+O menor caminho entre preta e nata tem custo 5
+preta -> prata -> pata -> nata
+
+O menor caminho entre preta e nato tem custo 6
+preta -> preto -> prato -> pato -> nato
+
+O menor caminho entre preta e tona tem custo 8
+preta -> prata -> pata -> nata -> nota -> tona
+
+O menor caminho entre preta e nota tem custo 6
+preta -> prata -> pata -> nata -> nota
+
+O menor caminho entre preta e alta tem custo 7
+preta -> prata -> pata -> ata -> alta
+
+O menor caminho entre preta e ata tem custo 5
+preta -> prata -> pata -> ata
+
+O menor caminho entre preta e preta tem custo 0
+preta
+
+O menor caminho entre preta e ato tem custo 6
+preta -> preto -> prato -> pato -> ato
+
+O menor caminho entre preta e pata tem custo 3
+preta -> prata -> pata
+
+O menor caminho entre preta e preto tem custo 1
+preta -> preto
+
+O menor caminho entre preta e rato tem custo 4
+preta -> preto -> prato -> rato
+
+O menor caminho entre preta e prata tem custo 1
+preta -> prata
+
+O menor caminho entre preta e prato tem custo 2
+preta -> preto -> prato
+
+Não existe caminho entre preta e catarata
+
+Não existe caminho entre preta e carta
+
+O menor caminho entre ato e gato tem custo 2
+ato -> gato
+
+O menor caminho entre ato e pato tem custo 2
+ato -> pato
+
+O menor caminho entre ato e lata tem custo 3
+ato -> ata -> lata
+
+O menor caminho entre ato e nata tem custo 3
+ato -> ata -> nata
+
+O menor caminho entre ato e nato tem custo 2
+ato -> nato
+
+O menor caminho entre ato e tona tem custo 5
+ato -> nato -> nota -> tona
+
+O menor caminho entre ato e nota tem custo 3
+ato -> nato -> nota
+
+O menor caminho entre ato e alta tem custo 3
+ato -> ata -> alta
+
+O menor caminho entre ato e ata tem custo 1
+ato -> ata
+
+O menor caminho entre ato e preta tem custo 6
+ato -> ata -> pata -> prata -> preta
+
+O menor caminho entre ato e ato tem custo 0
+ato
+
+O menor caminho entre ato e pata tem custo 3
+ato -> ata -> pata
+
+O menor caminho entre ato e preto tem custo 5
+ato -> pato -> prato -> preto
+
+O menor caminho entre ato e rato tem custo 2
+ato -> rato
+
+O menor caminho entre ato e prata tem custo 5
+ato -> ata -> pata -> prata
+
+O menor caminho entre ato e prato tem custo 4
+ato -> pato -> prato
+
+Não existe caminho entre ato e catarata
+
+Não existe caminho entre ato e carta
+
+O menor caminho entre pata e gato tem custo 3
+pata -> pato -> gato
+
+O menor caminho entre pata e pato tem custo 1
+pata -> pato
+
+O menor caminho entre pata e lata tem custo 2
+pata -> lata
+
+O menor caminho entre pata e nata tem custo 2
+pata -> nata
+
+O menor caminho entre pata e nato tem custo 3
+pata -> pato -> nato
+
+O menor caminho entre pata e tona tem custo 5
+pata -> nata -> nota -> tona
+
+O menor caminho entre pata e nota tem custo 3
+pata -> nata -> nota
+
+O menor caminho entre pata e alta tem custo 4
+pata -> ata -> alta
+
+O menor caminho entre pata e ata tem custo 2
+pata -> ata
+
+O menor caminho entre pata e preta tem custo 3
+pata -> prata -> preta
+
+O menor caminho entre pata e ato tem custo 3
+pata -> pato -> ato
+
+O menor caminho entre pata e pata tem custo 0
+pata
+
+O menor caminho entre pata e preto tem custo 4
+pata -> prata -> preta -> preto
+
+O menor caminho entre pata e rato tem custo 3
+pata -> pato -> rato
+
+O menor caminho entre pata e prata tem custo 2
+pata -> prata
+
+O menor caminho entre pata e prato tem custo 3
+pata -> pato -> prato
+
+Não existe caminho entre pata e catarata
+
+Não existe caminho entre pata e carta
+
+O menor caminho entre preto e gato tem custo 5
+preto -> prato -> pato -> gato
+
+O menor caminho entre preto e pato tem custo 3
+preto -> prato -> pato
+
+O menor caminho entre preto e lata tem custo 6
+preto -> preta -> prata -> pata -> lata
+
+O menor caminho entre preto e nata tem custo 6
+preto -> preta -> prata -> pata -> nata
+
+O menor caminho entre preto e nato tem custo 5
+preto -> prato -> pato -> nato
+
+O menor caminho entre preto e tona tem custo 8
+preto -> prato -> pato -> nato -> nota -> tona
+
+O menor caminho entre preto e nota tem custo 6
+preto -> prato -> pato -> nato -> nota
+
+O menor caminho entre preto e alta tem custo 8
+preto -> preta -> prata -> pata -> ata -> alta
+
+O menor caminho entre preto e ata tem custo 6
+preto -> preta -> prata -> pata -> ata
+
+O menor caminho entre preto e preta tem custo 1
+preto -> preta
+
+O menor caminho entre preto e ato tem custo 5
+preto -> prato -> pato -> ato
+
+O menor caminho entre preto e pata tem custo 4
+preto -> preta -> prata -> pata
+
+O menor caminho entre preto e preto tem custo 0
+preto
+
+O menor caminho entre preto e rato tem custo 3
+preto -> prato -> rato
+
+O menor caminho entre preto e prata tem custo 2
+preto -> preta -> prata
+
+O menor caminho entre preto e prato tem custo 1
+preto -> prato
+
+Não existe caminho entre preto e catarata
+
+Não existe caminho entre preto e carta
+
+O menor caminho entre rato e gato tem custo 2
+rato -> gato
+
+O menor caminho entre rato e pato tem custo 2
+rato -> pato
+
+O menor caminho entre rato e lata tem custo 5
+rato -> nato -> nata -> lata
+
+O menor caminho entre rato e nata tem custo 3
+rato -> nato -> nata
+
+O menor caminho entre rato e nato tem custo 2
+rato -> nato
+
+O menor caminho entre rato e tona tem custo 5
+rato -> nato -> nota -> tona
+
+O menor caminho entre rato e nota tem custo 3
+rato -> nato -> nota
+
+O menor caminho entre rato e alta tem custo 5
+rato -> ato -> ata -> alta
+
+O menor caminho entre rato e ata tem custo 3
+rato -> ato -> ata
+
+O menor caminho entre rato e preta tem custo 4
+rato -> prato -> preto -> preta
+
+O menor caminho entre rato e ato tem custo 2
+rato -> ato
+
+O menor caminho entre rato e pata tem custo 3
+rato -> pato -> pata
+
+O menor caminho entre rato e preto tem custo 3
+rato -> prato -> preto
+
+O menor caminho entre rato e rato tem custo 0
+rato
+
+O menor caminho entre rato e prata tem custo 3
+rato -> prato -> prata
+
+O menor caminho entre rato e prato tem custo 2
+rato -> prato
+
+Não existe caminho entre rato e catarata
+
+Não existe caminho entre rato e carta
+
+O menor caminho entre prata e gato tem custo 5
+prata -> prato -> pato -> gato
+
+O menor caminho entre prata e pato tem custo 3
+prata -> prato -> pato
+
+O menor caminho entre prata e lata tem custo 4
+prata -> pata -> lata
+
+O menor caminho entre prata e nata tem custo 4
+prata -> pata -> nata
+
+O menor caminho entre prata e nato tem custo 5
+prata -> prato -> pato -> nato
+
+O menor caminho entre prata e tona tem custo 7
+prata -> pata -> nata -> nota -> tona
+
+O menor caminho entre prata e nota tem custo 5
+prata -> pata -> nata -> nota
+
+O menor caminho entre prata e alta tem custo 6
+prata -> pata -> ata -> alta
+
+O menor caminho entre prata e ata tem custo 4
+prata -> pata -> ata
+
+O menor caminho entre prata e preta tem custo 1
+prata -> preta
+
+O menor caminho entre prata e ato tem custo 5
+prata -> prato -> pato -> ato
+
+O menor caminho entre prata e pata tem custo 2
+prata -> pata
+
+O menor caminho entre prata e preto tem custo 2
+prata -> preta -> preto
+
+O menor caminho entre prata e rato tem custo 3
+prata -> prato -> rato
+
+O menor caminho entre prata e prata tem custo 0
+prata
+
+O menor caminho entre prata e prato tem custo 1
+prata -> prato
+
+Não existe caminho entre prata e catarata
+
+Não existe caminho entre prata e carta
+
+O menor caminho entre prato e gato tem custo 4
+prato -> pato -> gato
+
+O menor caminho entre prato e pato tem custo 2
+prato -> pato
+
+O menor caminho entre prato e lata tem custo 5
+prato -> prata -> pata -> lata
+
+O menor caminho entre prato e nata tem custo 5
+prato -> prata -> pata -> nata
+
+O menor caminho entre prato e nato tem custo 4
+prato -> pato -> nato
+
+O menor caminho entre prato e tona tem custo 7
+prato -> pato -> nato -> nota -> tona
+
+O menor caminho entre prato e nota tem custo 5
+prato -> pato -> nato -> nota
+
+O menor caminho entre prato e alta tem custo 7
+prato -> prata -> pata -> ata -> alta
+
+O menor caminho entre prato e ata tem custo 5
+prato -> prata -> pata -> ata
+
+O menor caminho entre prato e preta tem custo 2
+prato -> preto -> preta
+
+O menor caminho entre prato e ato tem custo 4
+prato -> pato -> ato
+
+O menor caminho entre prato e pata tem custo 3
+prato -> prata -> pata
+
+O menor caminho entre prato e preto tem custo 1
+prato -> preto
+
+O menor caminho entre prato e rato tem custo 2
+prato -> rato
+
+O menor caminho entre prato e prata tem custo 1
+prato -> prata
+
+O menor caminho entre prato e prato tem custo 0
+prato
+
+Não existe caminho entre prato e catarata
+
+Não existe caminho entre prato e carta
+
+Não existe caminho entre catarata e gato
+
+Não existe caminho entre catarata e pato
+
+Não existe caminho entre catarata e lata
+
+Não existe caminho entre catarata e nata
+
+Não existe caminho entre catarata e nato
+
+Não existe caminho entre catarata e tona
+
+Não existe caminho entre catarata e nota
+
+Não existe caminho entre catarata e alta
+
+Não existe caminho entre catarata e ata
+
+Não existe caminho entre catarata e preta
+
+Não existe caminho entre catarata e ato
+
+Não existe caminho entre catarata e pata
+
+Não existe caminho entre catarata e preto
+
+Não existe caminho entre catarata e rato
+
+Não existe caminho entre catarata e prata
+
+Não existe caminho entre catarata e prato
+
+O menor caminho entre catarata e catarata tem custo 0
+catarata
+
+Não existe caminho entre catarata e carta
+
+Não existe caminho entre carta e gato
+
+Não existe caminho entre carta e pato
+
+Não existe caminho entre carta e lata
+
+Não existe caminho entre carta e nata
+
+Não existe caminho entre carta e nato
+
+Não existe caminho entre carta e tona
+
+Não existe caminho entre carta e nota
+
+Não existe caminho entre carta e alta
+
+Não existe caminho entre carta e ata
+
+Não existe caminho entre carta e preta
+
+Não existe caminho entre carta e ato
+
+Não existe caminho entre carta e pata
+
+Não existe caminho entre carta e preto
+
+Não existe caminho entre carta e rato
+
+Não existe caminho entre carta e prata
+
+Não existe caminho entre carta e prato
+
+Não existe caminho entre carta e catarata
+
+O menor caminho entre carta e carta tem custo 0
+carta
+

@@ -1,0 +1,11 @@
+4
+teste aaa a bbb teste tres
+aaa
+cinco
+seisss a a
+5
+0 10
+1 1
+2 2
+3 3
+3 5

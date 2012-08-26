@@ -1,0 +1,11 @@
+prog: atualizado.o desatualizado.o ausente.o
+	gcc atualizado.o desatualizado.o inexistente.o -o prog
+
+atualizado.o: atualizado.c atualizado.h
+	gcc -c atualizado.c
+
+desatualizado.o: desatualizado.c desatualizado.h
+	gcc -c desatualizado.c
+
+ausente.o: ausente.c ausente.h 
+	gcc -c inexistente.c

@@ -1,0 +1,37 @@
+MAC0211 - Laboratório de Programação I
+EP3-2011: Gerenciador de Arquivos
+
+Alunos:
+	Daniel Moraes Huguenin - 5118403
+	Pedro Paulo Vezzá Campos - 7538743
+
+
+Relatorio da Atividade:
+=======================
+
+
+1. Principais decisões:
+------------------------
+
+- Como já foi implementado na segunda fase do projeto, toda a funcionalidade do programa, nessa
+fase optamos por mudar apenas algumas questões estéticas e corrigir alguns bugs.
+
+- Após várias tentativas sem sucesso de implementar a aplicação de texturas no programa optamos por
+utilizar a textura em formato de código C. Salvamos a mesma pelo GIMP e incluimos o código no navegacao.h.
+
+- Optamos por transformar o painel da nave em "vidro" para aumentar o campo de visão no diretório 
+corrente.
+
+- Implementamos a leitura de texto diretamente na interface gráfica através de um buffer que vai
+sendo atualizado com cada tecla pressionada (quando em modo de entrada). A entrada aceita backspace.
+
+
+2. Correção de bugs:
+---------------------
+
+- Corrigimos um bug que ocorria quando o usuario renomeava um arquivo que sobrescreveria outro no
+mesmo diretório (o 'crosshair' não atualizava a posição).
+
+- Corrigimos também a movimentação nas diagonais da última coluna da listagem de arquivos. O cursor
+se movimentava quando o usuário clicava em um espaço vazio.
+

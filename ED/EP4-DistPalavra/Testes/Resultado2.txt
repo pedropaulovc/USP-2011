@@ -1,0 +1,5 @@
+O menor caminho entre gato e preto tem custo 7
+gato -> pato -> pata -> prata -> preta -> preto
+
+Não existe caminho entre ata e aresta
+

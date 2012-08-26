@@ -1,0 +1,64 @@
+MAC0211 - Laboratório de Programação I
+EP1-2011: Gerenciador de Arquivos
+
+Alunos:
+	Pedro Paulo Vezzá Campos - 7538743
+	Daniel Moraes Huguenin - 5118403
+
+
+Manual do Usuário
+===================
+
+Índice
+
+	0. Introdução
+	1. Comandos
+	2. Limitações conhecidas
+
+
+0. Introdução
+--------------
+
+	Este primeiro exercício-programa da disciplina MAC0211 - Laboratório de
+Programação I ministrada pelo professor Marco Dimas Gubitoso é um gerenciador
+de arquivos em modo texto que funciona em plataformas baseadas em Linux.
+	Seu funcionamento básico é através da leitura de comandos da entrada padrão
+formatados segundo regra definida nas especificações do projeto e detalhada nas
+seções a seguir, execução e escrita dos resultados na saída padrão e/ou saída
+padrão de erros.
+
+
+1. Comandos
+------------
+
+	Ao executar o programa, será exibida a saudação inicial e o diretório
+corrente, inicialmente o diretório de trabalho (PWD), será exibido seguido do
+caracter '>'. O programa aguardará a entrada do usuário.
+
+	Os comandos podem ser dos tipos abaixo: (essa lista pode ser visualizada a
+qualquer momento, digitando-se '?' seguido de ENTER). Parâmetros indicados com
+colchetes são opcionais. O comando deve ser separados dos argumentos por ' '
+(espaço) e os argumentos devem ser separados entre si por ',' (Não importando o
+número de espaços antes ou depois).
+
+	c DIR - Muda o diretorio corrente para DIR
+	l [DIR] - Lista o diretório DIR ou o diretório corrente
+	r ARQ - Remove o arquivo ARQ
+	m FON, DES - Renomeia o arquivo FON para DES
+	n ARQ - Cria o arquivo ARQ, se não existe
+	d [DIR] - Lista apenas os diretórios de DIR ou o diretório corrente
+	t [DIR] - Lista diretório DIR ou o corrente mostrando os tipos de cada arquivo
+	v ARQ - Exibe os conteúdos do arquivo ARQ
+	p - Exibe o diretório corrente
+	? - Exibe estes comandos
+	x - Sai do programa
+
+
+2. Limitações conhecidas
+-------------------------
+
+	Para excluir um diretório, ele deve estar vazio primeiramente.
+	Para evitar conflitos com a especificação do EP que utiliza vírgulas para
+separar parâmetros e aceita espaços antes e depois da vírgula, o programa não
+possui funcionamento garantido para arquivos que possuam em seus nomes caracteres
+espaço nas extremidades ou vírgulas em qualquer posição. 

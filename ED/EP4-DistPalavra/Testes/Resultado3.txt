@@ -1,0 +1,39 @@
+O menor caminho entre duro e a tem custo 6
+duro -> duo -> du -> da -> a
+
+O menor caminho entre barata e abaco tem custo 9
+barata -> barato -> barao -> barco -> baco -> abaco
+
+Não existe caminho entre abolir e abril
+
+O menor caminho entre dual e aluno tem custo 13
+dual -> duas -> das -> cas -> caso -> acaso -> aceso -> aceno -> aleno -> aluno
+
+O menor caminho entre camelo e camelo tem custo 0
+camelo
+
+O menor caminho entre cronica e dracma tem custo 17
+cronica -> cronico -> conico -> canico -> caneco -> caneca -> canca -> caca -> cama -> dama -> drama -> dracma
+
+O menor caminho entre bordado e dragao tem custo 17
+bordado -> bordao -> bordo -> bardo -> barco -> barca -> braca -> brama -> drama -> draga -> dragao
+
+O menor caminho entre credo e denso tem custo 14
+credo -> cedo -> cedro -> cetro -> centro -> cento -> censo -> denso
+
+Não existe caminho entre druida e bruxo
+
+O menor caminho entre ebano e acne tem custo 9
+ebano -> abano -> abaco -> baco -> aco -> ace -> acne
+
+O menor caminho entre ceifar e abate tem custo 16
+ceifar -> ceifa -> ceia -> cei -> ce -> ace -> ate -> ater -> bater -> abater -> abate
+
+O menor caminho entre doido e citara tem custo 12
+doido -> dodo -> dono -> dona -> dina -> dinar -> ditar -> citar -> citara
+
+O menor caminho entre comida e brisa tem custo 18
+comida -> comido -> comico -> conico -> canico -> caneco -> caneca -> canca -> banca -> branca -> braca -> brasa -> brisa
+
+Não existe caminho entre cursinho e doutor
+

@@ -1,0 +1,19 @@
+# EP2: MakeFile - 2011
+
+## Autor
+	Pedro Paulo Vezzá Campos - 7538743
+
+## Compilação
+	O programa possui um makefile (Gerado automaticamente pela ferramenta Eclipse).
+	Para compilá-lo apenas execute **make** no diretório Release. 
+	O executável gerado é **EP2-MakeFile**.
+
+## Execução
+	O programa ao ser executado busca por um arquivo "MakeFile" no diretório corrente, 
+	caso não encontre, aborta imediatamente a execução. Após isso, aguarda uma linha de
+	comando, como "make", "make target" ou "make limpa" por exemplo. Então, o programa 
+	exibirá as linhas necessarias para a atualização do target escolhido e encerrará.
+
+## Testes
+	O funcionamento correto do programa foi verificado através de casos de
+	teste inclusos no diretório **Testes**.

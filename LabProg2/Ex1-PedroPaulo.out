@@ -1,0 +1,71 @@
+/**
+ * MAC0242 - LABORATÓRIO DE PROGRAMAÇÃO II
+ * EXERCÍCIO 1: COMENTANDO O BYTECODE DO JAVA
+ * ALUNO: PEDRO PAULO VEZZÁ CAMPOS - 7538743
+ */
+
+/*
+ * Examine o exercício 1 e comente o seu código, isto é (no mínimo):
+ * 	1- Identifique soma.
+ *		Operando 1 (soma): Linha 29
+ *		Operando 2 (num) : Linha 30
+ *		Operação de soma : Linha 31
+ * 
+ * 	2- Identifique as chamadas de entrada e saída.
+ * 		Entrada (nextInt): Linhas 14 e 34
+ * 		Saída (println): Linhas 22, 42 e 52
+ * 
+ * 	3- Identifique onde é feito o tratamento da condição.
+ * 		Linha 26, compara se num < 0. Caso positivo encerra o loop (Pula para linha 46), senão 
+ * 		continua executando a próxima instrução.
+ * 
+ * 	4- Identifique onde como é feito o loop
+ * 		O loop está contido entre as linhas 26 e 45. A cada nova iteração é feita uma comparação
+ * 		como explicado no item anterior para verificar se deve-se proceder com uma nova iteração.
+ * 		ou encerrar o laço. Ao fim de cada iteração o goto da linha 45 garante que a única maneira
+ * 		de encerrar o loop é quando o branch "iflt	48" desviar para a linha 46.
+*/
+
+Compiled from "exercicio1.java"
+public class exercicio1 extends java.lang.Object{
+public exercicio1();
+  Code:
+   0:	aload_0																					// Carregar na pilha o endereço do objeto
+   1:	invokespecial	#1; //Method java/lang/Object."<init>":()V								// Chamar o construtor de Object
+   4:	return																					// Retorna
+
+public static void main(java.lang.String[]);
+  Code:
+   0:	new	#2; //class java/util/Scanner														// Cria novo objeto do tipo Scanner (input)
+   3:	dup																						// Duplica o endereço do objeto criado na pilha
+   4:	getstatic	#3; //Field java/lang/System.in:Ljava/io/InputStream;						// Busca o atributo estático "in" da classe System
+   7:	invokespecial	#4; //Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V		// Invoca o construtor do objeto input
+   10:	astore_2																				// Grava o endereço de input na posição 2 do vetor de variáveis locais
+   11:	iconst_0																				// Empilha a constante 0
+   12:	istore_1		iflt	48																		// Inicializa a variável soma com a constante 0
+   13:	aload_2																					// Empilha o endereço do objeto input
+   14:	invokevirtual	#5; //Method java/util/Scanner.nextInt:()I								// Invoca o método nextInt do objeto input
+   17:	istore_3																				// Grava o valor de retorno de nextInt na variável num
+   18:	getstatic	#6; //Field java/lang/System.out:Ljava/io/PrintStream;						// Busca o atributo estático "out" da classe System
+   21:	iload_3																					// Grava na pilha o valor de num
+   22:	invokevirtual	#7; //Method java/io/PrintStream.println:(I)V							// Invoca o método println que exibe o valor de num
+   25:	iload_3																					// Grava na pilha o valor de num
+   26:	iflt	48																				// Caso num seja menor que 0 então pule para linha 48
+   29:	iload_1																					// Empilha a variável soma
+   30:	iload_3																					// Empilha a variável num
+   31:	iadd																					// Realiza a soma: soma + num, gravando o resultado na pilha
+   32:	istore_1																				// Grava o resultado da soma em "soma"
+   33:	aload_2																					// Empilha o endereço de input
+   34:	invokevirtual	#5; //Method java/util/Scanner.nextInt:()I								// Invoca o método nextInt de input
+   37:	istore_3																				// Grava o valor de retorno de nextInt na variável num
+   38:	getstatic	#6; //Field java/lang/System.out:Ljava/io/PrintStream;						// Busca o atributo estático "out" da classe System
+   41:	iload_3																					// Grava na pilha o valor de num
+   42:	invokevirtual	#7; //Method java/io/PrintStream.println:(I)V							// Invoca o método println que exibe o valor de num
+   45:	goto	25																				// Pula incondicionalmente para a linha 25
+   48:	getstatic	#6; //Field java/lang/System.out:Ljava/io/PrintStream;						// Busca o atributo estático "out" da classe System
+   51:	iload_1																					// Empilha a variável soma
+   52:	invokevirtual	#7; //Method java/io/PrintStream.println:(I)V							// Invoca o método println que exibe o valor de soma
+   55:	return																					// Retorna
+
+}
+

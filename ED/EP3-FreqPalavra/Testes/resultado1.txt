@@ -1,0 +1,25 @@
+Contém 7 elementos:
+[1] bbb
+[1] cinco
+[1] seisss
+[1] tres
+[2] aaa
+[2] teste
+[3] a
+
+Contém 1 elementos:
+[3] a
+
+Contém 0 elementos:
+
+Contém 2 elementos:
+[1] bbb
+[2] aaa
+
+Contém 5 elementos:
+[1] bbb
+[1] cinco
+[1] tres
+[2] aaa
+[2] teste
+

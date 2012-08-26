@@ -1,0 +1,28 @@
+MAC0211 - Laboratório de Programação I
+EP3-2011: Gerenciador de Arquivos
+
+Alunos:
+	Pedro Paulo Vezzá Campos - 7538743
+	Daniel Moraes Huguenin - 5118403
+
+
+README
+=======
+
+Índice
+
+	0. Compilação
+	1. Documentação
+
+0. Compilação
+---------------
+
+	Este projeto conta com um Makefile. Para compilá-lo basta executar o comando
+	"make". O executável criado será "EP3-Daniel-Pedro".
+
+1. Documentação
+---------------
+
+	Para instruções de uso do programa abra o arquivo Manual.txt
+	Para o relatório de implementação do EP abra o arquivo Relatorio.txt
+	 

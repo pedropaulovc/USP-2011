@@ -1,0 +1,5 @@
+O menor caminho entre alta e preta tem custo 7
+alta -> ata -> pata -> prata -> preta
+
+Não existe caminho entre carta e catarata
+

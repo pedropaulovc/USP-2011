@@ -1,0 +1,31 @@
+MAC0211 - Laboratório de Programação I
+EP1-2011: Gerenciador de Arquivos
+
+Alunos:
+	Pedro Paulo Vezzá Campos - 7538743
+	Daniel Moraes Huguenin - 5118403
+
+
+Relatório de Implementação
+==========================
+
+	Optamos por armazenar as entradas (dirents) de cada diretorio que abrimos, em uma lista duplamente
+encadeada com cabeça de lista por aliar a simplicidade de uma estrutura linear com a flexibilidade 
+proporcionada por uma lista.
+
+	Em consequência disso, preferimos utilizar o comando "opendir" ao invés do "scandir". Tomamos essa
+decisão porque ao varrer o diretório uma entrada por vez, já vamos adicionando as dirents seguindo uma
+regra de ordenação especial ao trabalho que está definida abaixo.
+
+	A lista está ordenada de forma que os tipos (diretorio, arquivos regulares, fifos, etc) estão separados
+dos outros tipos por prioridade (diretorios entram no começo da lista, por exemplo). Além dessa ordem, as
+entradas de mesmo tipo estão ordenadas em ordem alfanumérica. Dessa forma, em toda operação de listagem
+já exibimos a lista em uma ordem amigável para o usuário.
+
+	O programa foi consebido com extensibilidade em mente, assim, cada funcionalidade foi projetada como
+uma função separada tanto no gerenciador quanto na interface em modo texto. Ainda, todas as informações
+comuns às funções do gerenciador foram agrupadas em uma struct "Singleton" chamada "manip". Isso contribuiu
+para o programa tornar-se simples em sua implementação e facilmente modificável ao longo do tempo.
+ 
+	O ambiente de programação utilizado foi o Eclipse HELIOS C/C++ para Ubuntu 10.10 (compilador gcc). E
+ todos os testes foram realizados no próprio terminal do Ubuntu e no Console do Eclipse.	

@@ -1,0 +1,54 @@
+Sequente válido
+Sequente inválido. Contra-exemplo: [Tq, Fp]
+Sequente inválido. Contra-exemplo: [Tq, Fp]
+Sequente válido
+Sequente válido
+Sequente inválido. Contra-exemplo: [Ta, Fq]
+Sequente válido
+Sequente inválido. Contra-exemplo: [Fq, Tp]
+Sequente válido
+Sequente inválido. Contra-exemplo: [Tq, Fr, Tp]
+Sequente inválido. Contra-exemplo: [Tq, Fp]
+Sequente válido
+Sequente válido
+Sequente inválido. Contra-exemplo: [Tq, Fp]
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente inválido. Contra-exemplo: [Fq, Tp]
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido
+Sequente válido

@@ -1,0 +1,10 @@
+<module rename-to='guerradasuniversidades'>
+  <inherits name='playn.PlayN'/>
+
+  <source path='core'/>
+  <source path='html'/>
+
+  <public path="resources" />
+
+  <entry-point class='com.mac242.guerradasuniversidades.html.GuerraDasUniversidadesHtml'/>
+</module>

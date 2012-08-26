@@ -1,0 +1,18 @@
+# EP4: Distância entre Palavras - 2011
+
+## Autor
+	Pedro Paulo Vezzá Campos - 7538743
+
+## Compilação
+	O programa possui um Makefile. Para compilá-lo apenas execute **make**. 
+	O executável gerado é **EP4-PedroPaulo**.
+
+## Execução
+	O programa, ao ser executado, lê da entrada padrão o texto de entrada e 
+	as consultas a serem feitas conforme a especificação do EP. Após 
+	a entrada do dicionário e da quantidade de consultas, a cada consulta
+	o programa exibirá a resposta calculada na saída padrão.
+
+## Testes
+	O funcionamento correto do programa foi verificado através de casos de
+	teste inclusos no diretório **Testes**.

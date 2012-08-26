@@ -1,0 +1,23 @@
+# EP1: Provador Teoremas - 2011
+
+## Autores
+	Pedro Paulo Vezzá Campos
+	Ana Luísa Losnak
+	Daniel Moraes Huguenin
+
+## Código fonte e compilação
+	O código encontra-se no diretório src/ que pode ser importado pelo Eclipse para compilação.
+
+## Execução
+	O EP acompanha um arquivo .jar com o código pré-compilado. Para iniciá-lo execute
+		java -jar EP1-PedroAnaDaniel.jar
+	Neste momento o programa lerá um sequente por linha conforme formatação fornecida pela
+	professora e imediatamente fornecerá na saída padrão o resultado da prova. Ao ler a linha
+	"#" o programa encerrará. 
+	
+## Testes
+	O funcionamento correto do programa foi verificado através de casos de
+	teste inclusos no diretório **testes**.
+	
+## Relatório
+	Um relatório da implementação está no arquivo Relatorio.pdf
